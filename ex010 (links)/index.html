@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <h2>Usando links externos</h2> <!--Externos são sites que não são nossos-->
+    <p>Repositório do <a href="https://gustavoguanabara.github.io/" target = "_blank" rel="external">Guanabara no GitHub</a></p> <!--"a" de anchor, "href" é hypertext reference, o "target" e o "rel" evita que meu site feche ao clicar no link, abre uma aba nova-->
+    <p>Também existe o canal no <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" rel="external">YouTube</a></p>
+
+    <h2>Usando links internos</h2>
+    
+    <p>Esta página é um oferecimento de <a href="https://www.hostnet.com.br" target ="_blank" rel="nofollow">Hostnet</a></p> <!--nofollow evita que o site seja indexado no mecanismo de busca-->
+    <p>Esta é a primeira página do site, a segunda é <a href="pag002.html" rel="next" target="_self">aqui</a></p>
+    <p>A nossa terceira <a href="noticias/pag003.html" rel="next" target="_self">página</a></p>
+
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="livro/White paper Satoshi.pdf" download="White paper Satoshi.pdf" type="application/pdf">Baixar livro em PDF</a></li> 
+        <li><a href="#">Livro compactado</a></li>
+        <!--ref com # significa link vazio-->
+    </ul>
+</body>
+</html>

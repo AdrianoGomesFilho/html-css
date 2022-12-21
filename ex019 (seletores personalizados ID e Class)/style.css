@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: #e8ffea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #0d3910;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(47, 90, 41);
+    color: rgb(255, 255, 255)
+}
+
+.basico {
+    color: #438647;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #6f5d21;
+}
+
+.avancado {
+    color: #a93b3b;
+}
+
+.destaque {
+    background-color: #ffea00;
+}
+/*Posso digitar só "#principal"
+No Class igualmente, só coloquei .basico e etc
+h2 {
+    color: #347037;
+
+}

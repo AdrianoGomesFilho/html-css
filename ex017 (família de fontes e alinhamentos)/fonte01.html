@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas absolutas
+            cm, mm, in, px, pt (pontos = word), pc (paica) = problemas, cada dispositivo tem tamanho de tela diferente
+
+            Medidas relativas
+            em (altura do M maísculo), ex (altura do x minúsculo), rem, vw (view width), vh, %
+            
+            RECOMENDADO PELA W3C = px e em (melhor, trabalha com porcentagem do tamanho padrão)
+
+            16px geralmente é igual a 1em
+            */
+            font-size: 1em;
+        }
+        /*O Sistema já sugere: Arial, se não tiver, Helvetica, se não, sans-serif = safe combination*/
+        h1 {
+            /*no lugar de usar:
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            Posso usar o shorthand font
+            
+            - font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans'
+            /*pode ser diferente do shorthand do h1 */
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ut! Quaerat earum consequatur optio necessitatibus tempora rem at? Tempore error rerum, delectus blanditiis nisi earum quae voluptatibus odit eum autem?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus fugit numquam sed ullam iusto earum quo error, placeat facilis voluptates possimus vero corrupti suscipit ex modi asperiores saepe recusandae ratione?</p>
+    <h2>Substítulo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis velit magnam provident incidunt, sunt doloribus perferendis? Error architecto minima provident odio ab beatae laborum quibusdam dolor consequuntur. Necessitatibus, sapiente numquam.</p>
+   
+</body>
+</html>

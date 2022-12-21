@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: justify;
+    font-size: 100%;
+}
+
+a {
+    color: #008539;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#links {
+    background: #84e1ac00;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+
+}
+#textocorrido {
+    background-color: rgb(250, 250, 250);
+    padding: 10px 30px;
+    margin: 0px 200px 10px 200px;
+    box-shadow: 1px 10px 9px 0px rgba(0, 0, 0, 0.616);
+    border-radius: 0px 0px 20px 20px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black -2px 2px 6px;
+    background-image: linear-gradient(to bottom, #3BD57F, #00461e);
+    box-shadow: 0px 7px 14px rgb(0 0 0 / 35%);
+    margin: 0px;
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+
+#header {
+    color: whitesmoke;
+    text-align: center;
+}
+header > p {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    margin: 10px;
+}
+
+header > div > a:hover {
+    background-color: rgba(255, 255, 255, 0.432);
+    color: black;
+    text-shadow: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+header > div > a {
+    margin: 20px;
+}
+
+header > div > a {
+    color: whitesmoke;
+    text-align: left;
+    text-decoration: none;
+}
+
+#textocorrido > p {
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+#textocorrido h2, h3 {
+    font-family: 'android';
+    color: #00461e;
+    padding: 5px 0px 5px 10px;
+}
+
+#textocorrido h2 {
+    font-size: 2em;
+}
+
+#textocorrido h3 {
+    background-image: linear-gradient(to right,#a3fdca, rgba(255, 255, 255, 0));
+}
+
+picture > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+#androidatual {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+}
+
+#blocofinal {
+    background-color: rgb(190, 226, 136);
+    border-radius: 0px 0px 20px 20px;
+    text-align: justify;
+    padding: 0px 20px;
+    margin: 0px 20px 20px 20px;
+    text-indent: 2em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
+}
+
+
+#blocofinal > p {
+    margin: 0px;
+    padding: 10px;
+}
+
+#blocofinal > ul {
+    text-decoration: underline;
+}
+
+#aprendermais {
+    background-color: rgb(0, 155, 0);
+    border-radius: 20px 20px 0px 0px;
+    font-size: 1.3em;
+    color: whitesmoke;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
+}
+
+#textoaprendermais {
+    margin: 0px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #00461e;
+    color: whitesmoke;
+    text-align: center;
+}

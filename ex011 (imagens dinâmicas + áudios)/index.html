@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho do navegador (puxando as bordas da janela).</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <!--A ordem do source -->
+    <!--Boucing rate = métrica do Google que calcula a taxa de rejeição do site, "entrou no site saiu em seguida"-->
+    <h1>Áudios no site</h1>
+    <p>Vamos usar áudios com a tag</p>
+    <audio preload="metadata" autoplay controls loop> <!--Auto: só vai considerar o site totalmente carregado após carregar o áudio (deixa muito lento se o arquivo é pesado), metadata: baixa quando clica no play-->
+        <source src="midia/valve.mp3" type="audio/mpeg">
+        <source src="midia/valve.mp3" type="audio/ogg">
+        <source src="midia/valve.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio, <a href="midia/valve.mp3">clique para baixar</a></p>
+        <!--Vai tentar reproduzir em vários formatos, se não conseguir, abre opção de baixar
+        Obs: wav é pesado
+        -->
+    </audio>
+    <!--mediatypes consulta no site indicado no PDF material github-->
+
+    
+</body>
+</html>
