@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'passion';
+    src: url('fontes/passion/PassionOne-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sriracha';
+    src: url('fontes/sriracha/Sriracha-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --fonte-padrao: 'passion', Arial, Helvetica, sans-serif;
+    --fonte-cordel: 'sriracha', cursive; /*alguns usuários relatam o erro da cursive*/
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 2px;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+}
+
+.static {
+    background: red;
+}
+
+.bg1::after {
+    background-image: url(imagens/background001.jpg);
+}
+
+.bg2::after {
+    background-image: url(imagens/background002.jpg);
+}
+
+header {
+    background-color: rgb(31, 31, 31);
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+header > h1 {
+    font-family: var(--fonte-padrao);
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-padrao);
+    letter-spacing: 0.1em;
+}
+
+header > p > strong > a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+}
+
+main > p {
+    font-family: var(--fonte-cordel);
+    font-size: 1.5em;
+    padding: 20px 0px 20px 0px;
+}
