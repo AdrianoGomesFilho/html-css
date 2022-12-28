@@ -16,6 +16,7 @@
 
 :root {
     --cor1:#080808;
+    --cortextofoto: #080808be;
     --fonte-padrao: 'passion', Arial, Helvetica, sans-serif;
     --fonte-cordel: 'sriracha', cursive; /*alguns usuários relatam o erro da cursive*/
 }
@@ -34,7 +35,7 @@ header {
 
 header > h1 {
     font-family: var(--fonte-padrao);
-    font-size: 4em;
+    font-size: 10vmin;
     color: white;
     text-align: center;
 }
@@ -62,6 +63,7 @@ main {
     padding: 30px 30px 0px 30px;
     background-color: azure;
     overflow: auto;
+    font-size: 3vmin;
 }
 main > p {
     font-family: var(--fonte-cordel);
@@ -71,7 +73,7 @@ main > p {
 .parallax1 {
     position: relative;
     background-image: url(imagens/background001.jpg);
-    min-height: 400px;
+    min-height: 62vmin;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,13 +96,12 @@ main > p {
 
 .textofoto {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.521);
+    background-color:var(--cortextofoto);
     color: white;
     padding: 30px;
-    left: 20px;
-    top: 60px;
+    left: 0%;
+    top: 14%;
     font-family: var(--fonte-cordel);
-    font-size: 1em;
 }
 
 footer {
@@ -109,10 +110,11 @@ footer {
     color: white;
     font-family: Arial;
     margin: 10px -30px 0px -30px;
- 
-}
+    text-align: center;
+ }
 
 footer > strong > a  {
     text-decoration: none;
     color: white;
+
 }
