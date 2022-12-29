@@ -72,24 +72,18 @@ main > p {
 
 .parallax1 {
     position: relative;
-    background-image: url(imagens/background001.jpg);
-    min-height: 62vmin;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(imagens/background001.jpg) center no-repeat fixed;
     background-size: cover;
+    min-height: 62vmin;
     margin: 0px -30px 0px -30px;
     box-shadow: inset 4px -7px 29px rgba(0, 0, 0, 0.774);
 }
 
 .parallax2 {
     position: relative;
-    background-image: url(imagens/background002.jpg);
-    min-height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(imagens/background002.jpg) center no-repeat fixed;
     background-size: cover;
+    min-height: 62vmin;
     margin: 0px -30px 0px -30px;
     box-shadow: inset 4px -7px 29px rgba(0, 0, 0, 0.774);
 }
@@ -98,11 +92,12 @@ main > p {
     position: absolute;
     background-color:var(--cortextofoto);
     color: white;
-    padding: 30px;
-    left: 0%;
-    top: 14%;
+    padding: 1%;
+    left: 40px;
+    top: 20%;    
     font-family: var(--fonte-cordel);
 }
+
 
 footer {
     background-color: var(--cor1);
