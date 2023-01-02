@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: grey;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        tbody > tr:nth-child(odd) { /* ou 2n-1*/
+            background-color: white;
+
+        }
+
+        
+        tbody > tr:nth-child(even) { /*ou 2n*/
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="num">
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr class="num">
+                <td>Minas Gerais</td>
+                <td>20 168 791</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr class="num">
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Paraná</td>
+                <td>10 444 526</td>
+            <tr class="num">
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr class="num">
+                <td>Minas Gerais</td>
+                <td>20 168 791</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr class="num">
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Paraná</td>
+                <td>10 444 526</td>
+            </tr>
+            <tr class="num">
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr class="num">
+                <td>Minas Gerais</td>
+                <td>20 168 791</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr class="num">
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Paraná</td>
+                <td>10 444 526</td>
+            </tr>
+            </tr>
+            <tr class="num">
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr class="num">
+                <td>Minas Gerais</td>
+                <td>20 168 791</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr class="num">
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Paraná</td>
+                <td>10 444 526</td>
+            <tr class="num">
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr class="num">
+                <td>Minas Gerais</td>
+                <td>20 168 791</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr class="num">
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Paraná</td>
+                <td>10 444 526</td>
+            </tr>
+            <tr class="num">
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr class="num">
+                <td>Minas Gerais</td>
+                <td>20 168 791</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr class="num">
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+    
+            <tr class="num">
+                <td>Paraná</td>
+                <td>10 444 526</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>0000</strong></td>
+            </tr>
+        </tfoot>
+        </table>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis placeat quidem veritatis totam quod dicta incidunt, cum reiciendis atque quas quisquam rerum libero nihil itaque debitis vero accusamus accusantium repellendus in ex. Ducimus, voluptas? Laboriosam optio aliquam fuga dolore rem consequatur exercitationem velit blanditiis! Repellat nemo iure ad praesentium voluptatibus dolor molestiae minima quisquam alias saepe? Inventore vitae obcaecati suscipit et officia officiis minima recusandae quisquam, ratione laborum reprehenderit aliquid iure quidem ducimus molestias ab quam. Labore nostrum similique, quod perspiciatis consectetur, tenetur animi voluptas ratione natus laborum accusamus possimus neque, vitae ad quidem nobis corrupti eaque cupiditate ipsa.lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis placeat quidem veritatis totam quod dicta incidunt, cum reiciendis atque quas quisquam rerum libero nihil itaque debitis vero accusamus accusantium repellendus in ex. Ducimus, voluptas? Laboriosam optio aliquam fuga dolore rem consequatur exercitationem velit blanditiis! Repellat nemo iure ad praesentium voluptatibus dolor molestiae minima quisquam alias saepe? Inventore vitae obcaecati suscipit et officia officiis minima recusandae quisquam, ratione laborum reprehenderit aliquid iure quidem ducimus molestias ab quam. Labore nostrum similique, quod perspiciatis consectetur, tenetur animi voluptas ratione natus laborum accusamus possimus neque, vitae ad quidem nobis corrupti eaque cupiditate ipsa.lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis placeat quidem veritatis totam quod dicta incidunt, cum reiciendis atque quas quisquam rerum libero nihil itaque debitis vero accusamus accusantium repellendus in ex. Ducimus, voluptas? Laboriosam optio aliquam fuga dolore rem consequatur exercitationem velit blanditiis! Repellat nemo iure ad praesentium voluptatibus dolor molestiae minima quisquam alias saepe? Inventore vitae obcaecati suscipit et officia officiis minima recusandae quisquam, ratione laborum reprehenderit aliquid iure quidem ducimus molestias ab quam. Labore nostrum similique, quod perspiciatis consectetur, tenetur animi voluptas ratione natus laborum accusamus possimus neque, vitae ad quidem nobis corrupti eaque cupiditate ipsa.lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis placeat quidem veritatis totam quod dicta incidunt, cum reiciendis atque quas quisquam rerum libero nihil itaque debitis vero accusamus accusantium repellendus in ex. Ducimus, voluptas? Laboriosam optio aliquam fuga dolore rem consequatur exercitationem velit blanditiis! Repellat nemo iure ad praesentium voluptatibus dolor molestiae minima quisquam alias saepe? Inventore vitae obcaecati suscipit et officia officiis minima recusandae quisquam, ratione laborum reprehenderit aliquid iure quidem ducimus molestias ab quam. Labore nostrum similique, quod perspiciatis consectetur, tenetur animi voluptas ratione natus laborum accusamus possimus neque, vitae ad quidem nobis corrupti eaque cupiditate ipsa.lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis placeat quidem veritatis totam quod dicta incidunt, cum reiciendis atque quas quisquam rerum libero nihil itaque debitis vero accusamus accusantium repellendus in ex. Ducimus, voluptas? Laboriosam optio aliquam fuga dolore rem consequatur exercitationem velit blanditiis! Repellat nemo iure ad praesentium voluptatibus dolor molestiae minima quisquam alias saepe? Inventore vitae obcaecati suscipit et officia officiis minima recusandae quisquam, ratione laborum reprehenderit aliquid iure quidem ducimus molestias ab quam. Labore nostrum similique, quod perspiciatis consectetur, tenetur animi voluptas ratione natus laborum accusamus possimus neque, vitae ad quidem nobis corrupti eaque cupiditate ipsa.lorem</p>
+</body>
+</html>
