@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(imagens/fundo-madeira.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+div {
+    position: relative;
+    margin: auto;
+    width: 311px;
+    height: 627px;
+    
+}
+
+iframe {
+    position: absolute;
+    margin: auto;
+    width: 289px;
+    height: 469px;
+    top: 12.9%;
+    left: 3.8%;
+}
+
+section#botoes {
+    position: relative;
+}
+
+#home {
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    top: -79vh;
+    left: 90vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+}
+
+#github {
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    top: -69vh;
+    left: 90vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+}
+
+#instagram {
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    top: -59vh;
+    left: 90vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+}
+
+#facebook {
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    top: -49vh;
+    left: 90vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+}
+
+#youtube {
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    top: -39vh;
+    left: 90vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+}
+
+
+
+
+
+
+
+
+
+
