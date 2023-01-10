@@ -1,6 +1,6 @@
 # html-css
-Curso de HTML5 e CSS3 do Professor Guanabara
-
+Sites criados graças ao Curso em Vídeo (Prof. Gustavo Guanabara):
 <a href="https://adrianogomesfilho.github.io/projeto-android/index.html">História do mascote do Android</a>
+<a href="https://adrianogomesfilho.github.io/projeto-cordel/index.html">Cordel Moderno utilizando parallax</a>
+<a href="https://adrianogomesfilho.github.io/projeto-redes-sociais/index.html">Redes Sociais utilizando o iframe</a>
 
-<a href="https://adrianogomesfilho.github.io/projeto-cordel/index.html">Breve Cordel com efeitos gráficos ("parallax")</a>
