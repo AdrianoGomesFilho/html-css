@@ -15,9 +15,12 @@ body, html {
 }
 
 body {
-    background: black url(../imagens/back-phone.jpg) no-repeat;
-    background-size: cover;
+    background-color: black;
+    background-image: url(../imagens/back-phone.jpg);
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 main {
