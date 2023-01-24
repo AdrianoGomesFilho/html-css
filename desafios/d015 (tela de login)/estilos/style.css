@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Hind', sans-serif;
+    src: url(../fontes/Hind-Bold.ttf) format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --cor1: #eee199;
+    --cor2: #a8eeff;
+    --cor3: rgb(228, 255, 221);
+    --font1: 'Hindi', sans-serif, Arial, Helvetica;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font1);
+}
+
+body {
+    background-color: var(--cor1);
+
+}
+
+div > img {
+    width:300px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#bem-vindo {
+    margin: 15px;
+}
+
+div#caixa {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    background-color: var(--cor3);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+#campo {
+    background-color: var(--cor1);
+}
+
+.icon {
+    width: 30px;
+}
+
+#iemail, #isenha {
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#entrar {
+    background-color: var(--cor2);
+}
+
+#esqueci {
+    background-color: var(--cor3);
+}
