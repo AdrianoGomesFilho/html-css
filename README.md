@@ -1,4 +1,4 @@
-<h1>Projects (teacher: Gustavo Guanabara):</h1>
+<h1>Projetos</h1>
 
 <p>🔍<a href="https://adrianogomesfilho.github.io/projeto-android/index.html">História do mascote do Android</a></p>
 <p>🔍<a href="https://adrianogomesfilho.github.io/projeto-cordel/index.html">Cordel Moderno utilizando parallax</a></p>
